@@ -1,5 +1,3 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
 import nodemailer from "nodemailer";
 
 export async function GET() {
@@ -24,9 +22,6 @@ export async function POST(req: Request) {
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
       },
     });
 

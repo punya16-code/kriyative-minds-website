@@ -1079,7 +1079,7 @@ form.reset();
     </p>
 
     <a
-      href="#enroll-section"
+      href="#enrollment-form"
       className="inline-block mt-10 bg-white text-[#23113f] px-10 py-4 rounded-2xl text-lg font-bold hover:scale-105 transition-all"
     >
       Enroll Now
