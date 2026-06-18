@@ -392,17 +392,17 @@ form.reset();
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <input
-      name="parentName"
+      name="studentName"
       type="text"
-      placeholder="Parent Name"
+      placeholder="Student Name"
       required
       className="border p-4 rounded-xl text-black"
     />
 
     <input
-      name="studentName"
+      name="parentName"
       type="text"
-      placeholder="Student Name"
+      placeholder="Parent Name"
       required
       className="border p-4 rounded-xl text-black"
     />
@@ -965,17 +965,17 @@ form.reset();
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <input
-      name="parentName"
+      name="studentName"
       type="text"
-      placeholder="Parent Name"
+      placeholder="Student Name"
       required
       className="border p-4 rounded-xl text-black placeholder:text-gray-500"
     />
 
     <input
-      name="studentName"
+      name="parentName"
       type="text"
-      placeholder="Student Name"
+      placeholder="Parent Name"
       required
       className="border p-4 rounded-xl text-black placeholder:text-gray-500"
     />
