@@ -210,7 +210,7 @@ export default function Home()
   </ul>
 
   <a
-    href="#enroll-section"
+    href="#enrollment-form"
     className="block mt-8 bg-white text-[#23113f] py-4 rounded-xl text-center font-bold"
   >
     Enroll Now
