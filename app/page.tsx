@@ -451,6 +451,10 @@ form.reset();
       </option>
 
       <option>
+        2-Day Workshop(special initiative)
+      </option>
+
+      <option>
         10-Day Coding Bootcamp
       </option>
 
@@ -1023,6 +1027,10 @@ form.reset();
       className="border p-4 rounded-xl md:col-span-2 text-black"
     >
       <option value="">Select Camp</option>
+      <option>
+        2-Day Workshop(special initiative)
+      </option>
+
       <option>10-Day Coding Bootcamp</option>
       <option>21-Day Coding & AI Master Camp</option>
     </select>
