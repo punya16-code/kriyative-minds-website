@@ -22,7 +22,9 @@ export default function Home()
     <p className="mt-6 text-xl md:text-2xl text-[#6B3FA0] font-medium">
       Empowering Young Innovators Through Coding & AI
     </p>
-
+   <p className="mt-4 text-lg text-[#4B2E83] font-semibold">
+    Former BrightCHAMPS Educator • Project-Based Learning • School Workshops
+    </p>
     {/* Company Lines */}
 
     <p className="mt-8 max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
@@ -42,12 +44,12 @@ export default function Home()
    <div className="flex flex-wrap justify-center gap-6 mt-12 mb-20">
 
   <a
-    href="#demo-form"
-    style={{ backgroundColor: "#23113f", color: "#ffffff" }}
-    className="px-10 py-4 rounded-2xl text-xl font-semibold shadow-lg hover:scale-105 transition-all duration-300"
-  >
-    Book Free Demo
-  </a>
+  href="#school-workshop"
+  style={{ backgroundColor: "#23113f", color: "#ffffff" }}
+  className="px-10 py-4 rounded-2xl text-xl font-semibold shadow-lg hover:scale-105 transition-all duration-300"
+>
+  Explore School Workshop Details
+</a>
 
   <a
     href="#programs"
@@ -183,40 +185,121 @@ export default function Home()
     </div>
   </div>
 </section>
-<div className="bg-[#23113f] text-white rounded-3xl p-8 shadow-xl mb-10">
+<section className="bg-white py-20 px-6">
+  <div className="max-w-6xl mx-auto text-center">
 
+    <h2 className="text-4xl font-bold text-[#4B2E83]">
+      Why Schools & Parents Choose KriyativeMinds
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+      <div className="bg-[#F7F3FF] p-8 rounded-3xl">
+        <h3 className="text-3xl font-bold text-[#4B2E83]">
+          100+
+        </h3>
+        <p className="mt-2 text-gray-700">
+          Students taught through coding and AI programs
+        </p>
+      </div>
+
+      <div className="bg-[#F7F3FF] p-8 rounded-3xl">
+        <h3 className="text-3xl font-bold text-[#4B2E83]">
+          Former BrightCHAMPS Educator
+        </h3>
+        <p className="mt-2 text-gray-700">
+          Experience teaching students from multiple countries
+        </p>
+      </div>
+
+      <div className="bg-[#F7F3FF] p-8 rounded-3xl">
+        <h3 className="text-3xl font-bold text-[#4B2E83]">
+          Project-Based Learning
+        </h3>
+        <p className="mt-2 text-gray-700">
+          Students build real games, animations and AI projects
+        </p>
+      </div>
+    </div>
+  </div>
+  </section>
+<section id="school-workshop" className="bg-[#d7b8ff] py-16">
+  <div className="max-w-7xl mx-auto px-8">
+    <div className="bg-[#23113f] rounded-3xl p-10 shadow-xl">
   <div className="inline-block bg-white text-[#23113f] px-4 py-1 rounded-full text-sm font-bold">
-    SPECIAL INITIATIVE
+    SCHOOL PARTNERSHIP INITIATIVE
   </div>
 
-  <h3 className="text-3xl font-bold mt-4">
-    2-Day School Coding Workshop
+ <h3 className="text-3xl md:text-4xl font-bold mt-4 text-white">
+    2-Day Coding Workshop for Schools
   </h3>
 
-  <p className="text-5xl font-bold mt-6">
-    ₹500
+  <p className="mt-6 text-lg text-[#d3c4ee] max-w-3xl">
+    A hands-on coding experience designed to introduce students to
+    technology through creativity, problem-solving, and project-based learning.
+    Students build their own games and animated stories while gaining
+    confidence in logical thinking and digital skills.
   </p>
 
-  <p className="mt-4 text-[#d3c4ee]">
-    A beginner-friendly coding experience designed for students who want to explore creativity through technology.
+  <div className="grid md:grid-cols-2 gap-6 mt-8">
+
+    <div className="bg-white/10 rounded-2xl p-5">
+      <h4 className="font-semibold text-lg mb-3 text-white">
+        What Students Learn
+      </h4>
+
+      <ul className="space-y-2 text-[#e7dcff]">
+        <li>✅ Create an Interactive Game</li>
+        <li>✅ Build an Animated Story</li>
+        <li>✅ Introduction to Coding Concepts</li>
+        <li>✅ Creativity & Logical Thinking Activities</li>
+        <li>✅ Participation Certificate</li>
+      </ul>
+    </div>
+
+    <div className="bg-white/10 rounded-2xl p-5">
+      <h4 className="font-semibold text-lg mb-3 text-white">
+        Workshop Highlights
+      </h4>
+
+      <ul className="space-y-2 text-[#e7dcff]">
+        <li>🎯 Beginner-Friendly</li>
+        <li>👩‍🏫 Guided Learning Sessions</li>
+        <li>💻 Project-Based Activities</li>
+        <li>🏫 Conducted in Collaboration with Schools</li>
+        <li>🚀 Pathway to Advanced Learning Programs</li>
+      </ul>
+    </div>
+
+  </div>
+<div className="mt-8 border-t border-white/20 pt-6">
+  <p className="text-sm uppercase tracking-wider text-purple-200">
+    Workshop Fee
   </p>
 
-  <ul className="mt-8 space-y-3">
-    <li>✅ Create an Interactive Game</li>
-    <li>✅ Build an Animated Story</li>
-    <li>✅ Introduction to Coding Concepts</li>
-    <li>✅ Creativity & Logical Thinking Activities</li>
-    <li>✅ Participation Certificate</li>
-  </ul>
+  <div className="mt-2">
+    <span className="text-5xl font-bold text-white">₹500</span>
+    <span className="ml-2 text-lg text-purple-200">
+      per student
+    </span>
+  </div>
 
-  <a
-    href="#enrollment-form"
-    className="block mt-8 bg-white text-[#23113f] py-4 rounded-xl text-center font-bold"
-  >
-    Enroll Now
-  </a>
-
+  <p className="mt-3 text-purple-100">
+    Includes hands-on learning, workshop activities, and a participation certificate for every student.
+  </p>
 </div>
+  <div className="mt-8 border-t border-white/20 pt-6">
+    <p className="text-[#d3c4ee]">
+      Interested in conducting this workshop at your school?
+      Contact us to discuss partnership opportunities and scheduling.
+    </p>
+    <p className="text-sm text-purple-200 mt-4">
+  Ideal for Grades 3–10 • Hands-on activities • Certificate included
+</p>
+  </div>
+</div>
+</div>
+</section>
 <section
   id="programs"
   className="bg-white py-24 px-6"
@@ -224,7 +307,7 @@ export default function Home()
   <div className="max-w-7xl mx-auto">
 
     <h2 className="text-4xl font-bold text-center text-[#4B2E83]">
-      Our Coding Camps
+      Beyond the Workshop
     </h2>
 
     <p className="text-center text-gray-600 mt-4">
@@ -255,12 +338,7 @@ export default function Home()
           <li>✅ Appreciation Certificate</li>
         </ul>
 
-        <a
-  href="#demo-form"
-  className="block mt-8 w-full bg-[#4B2E83] text-white py-4 rounded-xl text-center"
->
-  Book Free Demo
-</a>
+        
       </div>
 
       {/* 21 Day Camp */}
@@ -289,12 +367,7 @@ export default function Home()
           <li>✅ Personalized Feedback</li>
         </ul>
 
-        <a
-  href="#demo-form"
-  className="block mt-8 w-full bg-white text-[#4B2E83] py-4 rounded-xl text-center font-semibold"
->
-  Book Free Demo
-</a>
+        
       </div>
 
     </div>
@@ -306,7 +379,7 @@ export default function Home()
   <div className="max-w-4xl mx-auto text-center bg-[#F7F3FF] p-8 rounded-3xl">
 
     <h2 className="text-4xl font-bold text-[#4B2E83]">
-      Already Attended Our School Demo?
+      Already Attended Our School Workshop
     </h2>
 
     <p className="mt-4 text-black">
@@ -493,16 +566,17 @@ form.reset();
       Your Learning Journey
     </h2>
 
-    <p className="mt-4 text-lg text-gray-600">
-      From your first demo to presenting your final project.
-    </p>
+  
+      <p className="mt-4 text-lg text-gray-600">
+  From your first coding experience to presenting your final project.
+</p>
 
     <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mt-16">
 
       <div className="bg-[#F7F3FF] p-6 rounded-3xl shadow-md hover:shadow-xl transition duration-300">
         <div className="text-5xl">🎁</div>
         <h3 className="mt-4 font-semibold text-[#4B2E83]">
-          Free Demo
+          School Workshops
         </h3>
       </div>
 
@@ -830,6 +904,50 @@ form.reset();
   </div>
 
 </section>
+<section className="bg-[#F7F3FF] py-24 px-6">
+  <div className="max-w-6xl mx-auto text-center">
+
+    <h2 className="text-5xl font-bold text-[#4B2E83]">
+      School Coding Workshops
+    </h2>
+
+    <p className="mt-6 text-xl text-gray-700">
+      Interactive coding workshops conducted directly at schools.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 className="text-2xl font-bold text-[#4B2E83]">
+          Grades 3-5
+        </h3>
+        <p className="mt-4 text-gray-700">
+          Scratch Games & Animation Workshop
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 className="text-2xl font-bold text-[#4B2E83]">
+          Grades 6-8
+        </h3>
+        <p className="mt-4 text-gray-700">
+          Game Design & Logic Building
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 className="text-2xl font-bold text-[#4B2E83]">
+          Grades 9-10
+        </h3>
+        <p className="mt-4 text-gray-700">
+          AI, Websites & Future Tech
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 <section
   id="founder-section"
   className="bg-white py-24 px-6"
@@ -867,27 +985,12 @@ form.reset();
 
         <div className="w-24 h-1 bg-[#6B3FA0] mt-6 rounded-full"></div>
 <p className="mt-8 text-lg text-gray-700 leading-relaxed">
-  Hi, I'm Punya Channegowda, the founder of Kriyative Minds.
-  Over the years, I've had the opportunity to work with students from
-  different backgrounds, age groups and learning styles, and one thing
-  I've consistently noticed is that children learn best when they're
-  encouraged to explore, create and build things on their own. That's
-  exactly why I started Kriyative Minds — a place where children don't
-  just learn technology, but use it to bring their ideas to life with
-  confidence and creativity.
+I am a Coding & AI Educator and Founder of KriyativeMinds. Prior to starting KriyativeMinds, I worked with BrightCHAMPS teaching Coding and Artificial Intelligence to students across the US, UK and other regions through one-on-one classes and workshops.
 </p>
-  <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-  Before starting Kriyative Minds, I worked as an educator with
-  BrightCHAMPS, where I taught Coding and AI to students across
-  different parts of the world, primarily in the US and UK. Through
-  one-on-one classes, workshops and project-based learning sessions,
-  I had the privilege of interacting with hundreds of young learners
-  and understanding what truly keeps them engaged. Those experiences
-  helped me design learning programs that are practical, interactive
-  and enjoyable. My goal is simple — to help every child build
-  confidence, develop problem-solving skills and discover that they
-  are capable of creating amazing things with technology.
-</p>      
+
+<p className="mt-6 text-lg text-gray-700 leading-relaxed">
+My mission is to help students move beyond passive technology consumption and become creators by building games, websites, animations and AI-powered projects through hands-on learning.
+</p>   
 
         <div className="mt-8 bg-[#F7F3FF] p-6 rounded-2xl">
           <p className="font-semibold text-[#4B2E83]">
@@ -902,172 +1005,53 @@ form.reset();
   </div>
 
 </section>
-<section className="bg-[#F7F3FF] py-24 px-6">
+<section
+  id="school-workshops"
+  className="bg-white py-24 px-6"
+>
+  <div className="max-w-5xl mx-auto">
 
-  <div className="max-w-4xl mx-auto">
+    <h2 className="text-5xl font-bold text-center text-[#4B2E83]">
+      School Workshop Programs
+    </h2>
 
-    <div className="text-center">
+    <p className="mt-6 text-center text-lg text-gray-700">
+      Practical Coding & AI workshops designed for schools.
+    </p>
 
-      <section
-  id="demo-form"
-  className="bg-[#F7F3FF] py-24 px-6"
-></section>
+    <div className="grid md:grid-cols-2 gap-8 mt-16">
 
-      <p className="mt-4 text-gray-600">
-        Fill out the form and we'll contact you shortly.
-      </p>
+      <div className="bg-[#F7F3FF] p-8 rounded-3xl">
+        <h3 className="text-2xl font-bold text-[#4B2E83]">
+          Coding Workshop
+        </h3>
+
+        <ul className="mt-6 space-y-3">
+          <li>✅ Scratch Programming</li>
+          <li>✅ Game Development</li>
+          <li>✅ Animations</li>
+          <li>✅ Computational Thinking</li>
+          <li>✅ Project Showcase</li>
+        </ul>
+      </div>
+
+      <div className="bg-[#F7F3FF] p-8 rounded-3xl">
+        <h3 className="text-2xl font-bold text-[#4B2E83]">
+          AI & Innovation Workshop
+        </h3>
+
+        <ul className="mt-6 space-y-3">
+          <li>✅ Introduction to AI</li>
+          <li>✅ Prompt Engineering</li>
+          <li>✅ AI Tools for Students</li>
+          <li>✅ Creative AI Projects</li>
+          <li>✅ Ethical AI Awareness</li>
+        </ul>
+      </div>
 
     </div>
 
-   <form
-  onSubmit={async (e) => {
-    e.preventDefault();
-
-    const formData = new FormData(
-      e.currentTarget as HTMLFormElement
-    );
-
-    const phone = formData.get("phone")?.toString() || "";
-
-    if (!/^\d{10}$/.test(phone)) {
-      alert("Please enter a valid 10-digit phone number.");
-      return;
-    }
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          parentName: formData.get("parentName"),
-          studentName: formData.get("studentName"),
-          grade: formData.get("grade"),
-          phone: formData.get("phone"),
-          email: formData.get("email"),
-          mode: formData.get("mode"),
-          camp: formData.get("camp"),
-          school: formData.get("school"),
-          message: formData.get("message"),
-        }),
-      });
-
-      const data = await res.json();
-
-      if (data.success) {
-        setMessage("🎉 Thank you! Demo request submitted successfully!");
-             } else {
-        setMessage("❌ Something went wrong.");
-      }
-    } catch (error) {
-      console.error(error);
-      setMessage("❌ Server error. Please try again.");
-    }
-  }}
-  className="mt-12 bg-white p-6 md:p-10 rounded-3xl shadow-xl">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-    <input
-      name="studentName"
-      type="text"
-      placeholder="Student Name"
-      required
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <input
-      name="parentName"
-      type="text"
-      placeholder="Parent Name"
-      required
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <input
-      name="grade"
-      type="text"
-      placeholder="Grade"
-      required
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <input
-      name="phone"
-      type="tel"
-      placeholder="Phone Number"
-      required
-      pattern="[0-9]{10}"
-      maxLength={10}
-      inputMode="numeric"
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <input
-      name="email"
-      type="email"
-      placeholder="Email Address"
-      required
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <select
-      name="mode"
-      required
-      className="border p-4 rounded-xl text-black"
-    >
-      <option value="">Choose Mode</option>
-      <option>Online</option>
-      <option>Offline</option>
-    </select>
-
-    <select
-      name="camp"
-      required
-      className="border p-4 rounded-xl md:col-span-2 text-black"
-    >
-      <option value="">Select Camp</option>
-      <option>
-        2-Day Workshop(special initiative)
-      </option>
-
-      <option>10-Day Coding Bootcamp</option>
-      <option>21-Day Coding & AI Master Camp</option>
-    </select>
-
-    <input
-      name="school"
-      type="text"
-      placeholder="School Name"
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500"
-    />
-
-    <textarea
-      name="message"
-      placeholder="Any specific interests or questions?"
-      rows={4}
-      className="border p-4 rounded-xl text-black placeholder:text-gray-500 md:col-span-2"
-    />
-
   </div>
-
-  <button
-    type="submit"
-    className="mt-8 w-full bg-[#4B2E83] text-white py-4 rounded-xl text-lg font-semibold hover:opacity-90 transition"
-  >
-    Book Free Demo
-  </button>
-
-  {message && (
-    <div className="mt-6 bg-[#F7F3FF] border border-[#4B2E83] rounded-xl p-4">
-      <p className="text-center text-black font-semibold text-lg">
-        {message}
-      </p>
-    </div>
-  )}
-</form>
-  </div>
- 
 </section>
 <section className="bg-[#23113f] py-24 px-6">
 
@@ -1131,13 +1115,17 @@ form.reset();
   Founder
 </a>
 
-      <a href="#demo-form" className="hover:text-white text-gray-300">
-        Book Demo
-      </a>
+ <a href="#school-workshops"className="hover:text-white text-gray-300">
+    School Workshops
+  </a>
 
-      <a href="#enrollment-form" className="hover:text-white text-gray-300">
-        Enroll
-      </a>
+  <a href="#programs"className="hover:text-white text-gray-300">
+    Explore Programs
+  </a>
+
+  <a href="#enroll-card"className="hover:text-white text-gray-300">
+    Enroll Now
+  </a>
 
     </div>
 
