@@ -224,40 +224,38 @@ export default function Home()
   </div>
   </section>
   {/* ================= Founding Partner School Program ================= */}
-
 <section
   id="founding-partner"
-  className="py-20 bg-[#f6f0ff]"
+  className="py-16 md:py-20 bg-[#f6f0ff]"
 >
-  <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
-    <div className="text-center mb-14">
-      <span className="inline-block bg-[#23113f] text-white px-5 py-2 rounded-full text-sm font-semibold tracking-wide">
+    {/* Heading */}
+    <div className="text-center mb-12 md:mb-14">
+      <span className="inline-block bg-[#23113f] text-white px-5 py-2 rounded-full text-xs sm:text-sm font-semibold tracking-wide">
         EXCLUSIVE LAUNCH INITIATIVE
       </span>
 
-      <h2 className="text-4xl md:text-5xl font-bold text-[#23113f] mt-5">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#23113f] mt-5">
         Founding Partner School Program
       </h2>
 
-      <p className="mt-5 text-gray-700 max-w-3xl mx-auto text-lg leading-relaxed">
-        Become one of the first schools to partner with KriyativeMinds and
-        provide students with an engaging creative coding experience through our
-        exclusive launch initiative.
+      <p className="mt-5 text-gray-700 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
+        Become one of the first schools to partner with KriyativeMinds and provide students with an engaging creative coding experience through our exclusive launch initiative.
       </p>
     </div>
 
-    <div className="grid lg:grid-cols-2 gap-10">
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
 
-      {/* Left Side */}
+      {/* Left Card */}
 
-      <div className="bg-white rounded-3xl shadow-xl p-10">
+      <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 md:p-10">
 
-        <h3 className="text-3xl font-bold text-[#23113f] mb-8">
+        <h3 className="text-2xl sm:text-3xl font-bold text-[#23113f] mb-8">
           Why Become a Founding Partner?
         </h3>
 
-        <div className="space-y-5 text-lg">
+        <div className="space-y-5 text-base sm:text-lg">
 
           <div>✅ Exclusive Founding Partner Recognition</div>
 
@@ -279,32 +277,32 @@ export default function Home()
 
       </div>
 
-      {/* Right Side */}
+      {/* Right Card */}
 
-      <div className="bg-[#23113f] rounded-3xl shadow-xl p-10 text-white">
+      <div className="bg-[#23113f] rounded-3xl shadow-xl p-6 sm:p-8 md:p-10 text-white flex flex-col">
 
-        <span className="bg-white text-[#23113f] px-4 py-2 rounded-full font-bold text-sm">
+        <span className="inline-block w-fit bg-white text-[#23113f] px-4 py-2 rounded-full font-bold text-xs sm:text-sm whitespace-nowrap">
           FOUNDING PARTNER OFFER
         </span>
 
-        <h3 className="text-4xl font-bold mt-6">
+        <h3 className="text-3xl sm:text-4xl font-bold mt-8">
           Launch Price
         </h3>
 
-        <p className="text-7xl font-extrabold mt-5">
-          ₹200
+        <p className="text-5xl sm:text-6xl lg:text-7xl font-extrabold mt-3">
+          ₹250
         </p>
 
-        <p className="text-xl mt-2">
+        <p className="text-lg sm:text-xl mt-2">
           per student
         </p>
 
-        <p className="mt-6 text-[#ddd1f5] leading-relaxed">
+        <p className="mt-6 text-[#ddd1f5] leading-relaxed text-sm sm:text-base">
           Applicable for schools with a minimum participation of
           <span className="font-bold text-white"> 350 students.</span>
         </p>
 
-        <div className="mt-8 space-y-3">
+        <div className="mt-8 space-y-4 text-sm sm:text-base">
 
           <p>✔ 2-Hour Hands-on Workshop</p>
 
@@ -318,14 +316,14 @@ export default function Home()
 
         </div>
 
-       <a
-  href="https://wa.me/917019427213?text=Hello%20Punya,%20I%20am%20interested%20in%20becoming%20a%20Founding%20Partner%20School%20for%20the%20KriyativeMinds%20Creative%20Coding%20Workshop.%20I%20would%20like%20to%20schedule%20an%20appointment."
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-10 bg-white text-[#23113f] text-center py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition"
->
-  Request an Appointment
-</a>
+        <a
+          href="https://wa.me/917019427213?text=Hello%20Punya,%20I%20am%20interested%20in%20becoming%20a%20Founding%20Partner%20School%20for%20the%20KriyativeMinds%20Creative%20Coding%20Workshop.%20I%20would%20like%20to%20schedule%20an%20appointment."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-10 block w-full bg-white text-[#23113f] text-center py-4 rounded-2xl font-bold text-base sm:text-lg hover:bg-gray-100 transition duration-300"
+        >
+          Request an Appointment
+        </a>
 
       </div>
 
@@ -333,20 +331,18 @@ export default function Home()
 
     {/* Bottom Highlight */}
 
-    <div className="mt-12 bg-[#e8dbff] rounded-3xl p-8 text-center">
+    <div className="mt-12 bg-[#e8dbff] rounded-3xl p-6 sm:p-8 text-center">
 
-      <h4 className="text-2xl font-bold text-[#23113f]">
+      <h4 className="text-xl sm:text-2xl font-bold text-[#23113f]">
         Limited Launch Opportunity
       </h4>
 
-      <p className="mt-4 text-gray-700 text-lg max-w-4xl mx-auto">
+      <p className="mt-4 text-gray-700 text-base sm:text-lg max-w-4xl mx-auto leading-relaxed">
         We are partnering with a limited number of schools as our
         <span className="font-semibold text-[#23113f]">
           {" "}Founding Partner Schools{" "}
         </span>
-        during the launch phase of KriyativeMinds. Partner schools will receive
-        exclusive introductory pricing and be recognized as our early education
-        partners.
+        during the launch phase of KriyativeMinds. Partner schools will receive exclusive introductory pricing and be recognized as our early education partners.
       </p>
 
     </div>
