@@ -223,6 +223,134 @@ export default function Home()
     </div>
   </div>
   </section>
+  {/* ================= Founding Partner School Program ================= */}
+
+<section
+  id="founding-partner"
+  className="py-20 bg-[#f6f0ff]"
+>
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="text-center mb-14">
+      <span className="inline-block bg-[#23113f] text-white px-5 py-2 rounded-full text-sm font-semibold tracking-wide">
+        EXCLUSIVE LAUNCH INITIATIVE
+      </span>
+
+      <h2 className="text-4xl md:text-5xl font-bold text-[#23113f] mt-5">
+        Founding Partner School Program
+      </h2>
+
+      <p className="mt-5 text-gray-700 max-w-3xl mx-auto text-lg leading-relaxed">
+        Become one of the first schools to partner with KriyativeMinds and
+        provide students with an engaging creative coding experience through our
+        exclusive launch initiative.
+      </p>
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-10">
+
+      {/* Left Side */}
+
+      <div className="bg-white rounded-3xl shadow-xl p-10">
+
+        <h3 className="text-3xl font-bold text-[#23113f] mb-8">
+          Why Become a Founding Partner?
+        </h3>
+
+        <div className="space-y-5 text-lg">
+
+          <div>✅ Exclusive Founding Partner Recognition</div>
+
+          <div>✅ Special Launch Pricing</div>
+
+          <div>✅ Hands-on Creative Coding Workshop</div>
+
+          <div>✅ Scratch Programming for Grades 3–10</div>
+
+          <div>✅ Interactive Game & Animated Story Creation</div>
+
+          <div>✅ Participation Certificate for Every Student</div>
+
+          <div>✅ Beginner Friendly – No Prior Coding Experience Required</div>
+
+          <div>✅ Priority Access to Future KriyativeMinds Programs</div>
+
+        </div>
+
+      </div>
+
+      {/* Right Side */}
+
+      <div className="bg-[#23113f] rounded-3xl shadow-xl p-10 text-white">
+
+        <span className="bg-white text-[#23113f] px-4 py-2 rounded-full font-bold text-sm">
+          FOUNDING PARTNER OFFER
+        </span>
+
+        <h3 className="text-4xl font-bold mt-6">
+          Launch Price
+        </h3>
+
+        <p className="text-7xl font-extrabold mt-5">
+          ₹200
+        </p>
+
+        <p className="text-xl mt-2">
+          per student
+        </p>
+
+        <p className="mt-6 text-[#ddd1f5] leading-relaxed">
+          Applicable for schools with a minimum participation of
+          <span className="font-bold text-white"> 350 students.</span>
+        </p>
+
+        <div className="mt-8 space-y-3">
+
+          <p>✔ 2-Hour Hands-on Workshop</p>
+
+          <p>✔ Project-Based Learning</p>
+
+          <p>✔ Interactive Game Development</p>
+
+          <p>✔ Animated Story Creation</p>
+
+          <p>✔ Participation Certificate Included</p>
+
+        </div>
+
+        <a
+          href="#contact"
+          className="block mt-10 bg-white text-[#23113f] text-center py-4 rounded-xl font-bold hover:bg-gray-100 transition"
+        >
+          Request an Appointment
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* Bottom Highlight */}
+
+    <div className="mt-12 bg-[#e8dbff] rounded-3xl p-8 text-center">
+
+      <h4 className="text-2xl font-bold text-[#23113f]">
+        Limited Launch Opportunity
+      </h4>
+
+      <p className="mt-4 text-gray-700 text-lg max-w-4xl mx-auto">
+        We are partnering with a limited number of schools as our
+        <span className="font-semibold text-[#23113f]">
+          {" "}Founding Partner Schools{" "}
+        </span>
+        during the launch phase of KriyativeMinds. Partner schools will receive
+        exclusive introductory pricing and be recognized as our early education
+        partners.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 <section id="school-workshop" className="bg-[#d7b8ff] py-16">
   <div className="max-w-7xl mx-auto px-8">
     <div className="bg-[#23113f] rounded-3xl p-10 shadow-xl">
