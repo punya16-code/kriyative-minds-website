@@ -318,12 +318,14 @@ export default function Home()
 
         </div>
 
-        <a
-          href="#contact"
-          className="block mt-10 bg-white text-[#23113f] text-center py-4 rounded-xl font-bold hover:bg-gray-100 transition"
-        >
-          Request an Appointment
-        </a>
+       <a
+  href="https://wa.me/917019427213?text=Hello%20Punya,%20I%20am%20interested%20in%20becoming%20a%20Founding%20Partner%20School%20for%20the%20KriyativeMinds%20Creative%20Coding%20Workshop.%20I%20would%20like%20to%20schedule%20an%20appointment."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-10 bg-white text-[#23113f] text-center py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition"
+>
+  Request an Appointment
+</a>
 
       </div>
 
